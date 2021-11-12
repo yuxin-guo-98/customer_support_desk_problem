@@ -1,0 +1,21 @@
+﻿<Window x:Class="customersupport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:customersupport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800" 
+       
+        xmlns:vw="clr-namespace:customersupport.View" >
+    <!-- xmlns:vm="clr-namespace:customersupport.View"-->
+    
+    <Grid>
+        <vw:AddCustomerView></vw:AddCustomerView>
+
+        <!-- <vm:LoginViews></vm:LoginViews> -->
+
+
+        
+    </Grid>
+</Window>
